@@ -9,9 +9,15 @@ const Header = () => {
           <div className="title__name">Start Bootstrap</div>
           <div className="title__menu">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Contract</li>
+              <li className="active">
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Contract</a>
+              </li>
             </ul>
           </div>
         </div>

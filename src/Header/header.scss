@@ -1,14 +1,45 @@
 .wrapper {
   background: #212529;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
 
   .container {
     max-width: 1290px;
     margin: auto;
     color: white;
     display: flex;
+    justify-content: space-between;
 
     .title__name {
       font-size: 22px;
+    }
+
+    .title__menu {
+      ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 5px;
+
+        li {
+          width: 60px;
+
+          &.active {
+            a {
+              color: white
+            }
+          }
+
+          a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.55);
+          }
+
+          a:hover {
+            color: white;
+          }
+        }
+      }
     }
   }
 }
