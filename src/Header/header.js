@@ -1,15 +1,23 @@
-import React from 'react';
+import React from "react";
+import "./header.scss";
 
-export default function Header() {
+const Header = () => {
   return (
     <div>
-      <Header>
+      <div className="wrapper">
         <div className="container">
-          <div className="title">
-            Start Bootstrap
+          <div className="title__name">Start Bootstrap</div>
+          <div className="title__menu">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contract</li>
+            </ul>
           </div>
         </div>
-      </Header>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default Header;

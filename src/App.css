@@ -1,13 +1,9 @@
-.App {
-  /* text-align: center; */
-  max-width: 1290px;
-  margin: auto;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

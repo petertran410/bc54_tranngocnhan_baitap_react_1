@@ -1,0 +1,12 @@
+.wrapper {
+  background: #212529;
+}
+.wrapper .container {
+  max-width: 1290px;
+  margin: auto;
+  color: white;
+  display: flex;
+}
+.wrapper .container .title__name {
+  font-size: 22px;
+}/*# sourceMappingURL=header.css.map */
