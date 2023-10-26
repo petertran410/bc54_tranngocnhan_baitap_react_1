@@ -1,0 +1,12 @@
+.wrapper .footbar {
+  margin: 40px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .footbar__icon {
+  margin: 0 3px;
+  position: relative;
+  top: -2px;
+}/*# sourceMappingURL=footbar.css.map */

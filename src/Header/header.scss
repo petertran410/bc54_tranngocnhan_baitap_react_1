@@ -24,19 +24,18 @@
         li {
           width: 60px;
 
-          &.active {
-            a {
-              color: white
-            }
+          &.active a {
+            color: white;
           }
 
           a {
             text-decoration: none;
-            color: rgba(255, 255, 255, 0.55);
-          }
+            color: rgba(255, 255, 255, 0.45);
+            transition: color 0.5s;
 
-          a:hover {
-            color: white;
+            &:hover {
+              color: white
+            }
           }
         }
       }
