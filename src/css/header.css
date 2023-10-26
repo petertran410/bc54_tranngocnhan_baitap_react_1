@@ -22,14 +22,16 @@
 .wrapper .container .title__menu ul li {
   width: 60px;
 }
-.wrapper .container .title__menu ul li.active a {
+.wrapper .container .title__menu ul li.active button {
   color: white;
 }
-.wrapper .container .title__menu ul li a {
+.wrapper .container .title__menu ul li button {
+  background-color: unset;
+  border: unset;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.45);
   transition: color 0.5s;
 }
-.wrapper .container .title__menu ul li a:hover {
+.wrapper .container .title__menu ul li button:hover {
   color: white;
 }/*# sourceMappingURL=header.css.map */

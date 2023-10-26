@@ -24,11 +24,13 @@
         li {
           width: 60px;
 
-          &.active a {
+          &.active button {
             color: white;
           }
 
-          a {
+          button {
+            background-color: unset;
+            border: unset;
             text-decoration: none;
             color: rgba(255, 255, 255, 0.45);
             transition: color 0.5s;
